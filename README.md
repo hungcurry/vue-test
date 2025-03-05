@@ -1,35 +1,18 @@
-# vueDB
+git checkout -b dev # 建立 dev 分支
+git push origin dev # 推送到遠端
 
-This template should help get you started developing with Vue 3 in Vite.
+git checkout -b test # 建立 test 分支
+git push origin test # 推送到遠端
 
-## Recommended IDE Setup
+- 1.創建好main
+- 2.推送 dev/ test 分支 產生出Pull requests
+- 3.vercel 才會產生對應的分支連結
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+prod
+https://vue-test-three.vercel.app/prod/
 
-## Customize configuration
+dev
+https://vue-test-git-dev-hungcurrys-projects.vercel.app/dev/
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+test
+https://vue-test-git-test-hungcurrys-projects.vercel.app/test/
